@@ -1,8 +1,6 @@
 # SPEVN (pronounced like kevin)
 The official r/ShitpostEmblem Visual Novel
 
-Whenever you push a commit, make sure to compress/zip the entire project.
-
 Necessities:
 
 Ren'Py:	https://www.renpy.org/latest.html

@@ -156,6 +156,10 @@ define config.window_icon = "gui/window_icon.png"
 ##
 ## This section controls how Ren'Py turns your project into distribution files.
 
+## Added by Mogall
+## Sets a layer to accomplish the "protag covers dialoge he doesn't like" idea.
+define config.layers = [ 'master', 'transient', 'screens', 'o_screen', 'overlay' ]
+
 init python:
 
     ## The following functions take file patterns. File patterns are case-

@@ -42,7 +42,7 @@ Kelik:
 Mia:
 	
 	
-Protagonist (raymond):
+Protagonist (insert clever name):
 	Separate from the player
 	covers dialogue choices he doesn't like
 	menus appear in the middle of protag dialogue

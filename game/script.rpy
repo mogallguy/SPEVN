@@ -11,6 +11,8 @@ label start:
     e "Welcome to the world of SPE."
     e "There are lots of mogalls and furrets. It's a wonderful place."
     l "Thanks for the welcome I will subscribe so we can beat naughty r/FEH"
+    e "I want you to do something else besides subscribe..."
+    l "Eh?! Kyaa!~~"
 
     ## Mogall messing around with showing protag over menus
     hide eliwoodbig
@@ -27,8 +29,13 @@ label start:
 
 label kissmogall:
     e "Mmm oh yeah baby pucker up"
-    return
+    jump ending
 
 label badend1:
     e "Too bad so sad"
+    jump ending
+
+label ending:
+    hide mogallguyfieri
+    l "Free will doesn't exist haha yeah"
     return

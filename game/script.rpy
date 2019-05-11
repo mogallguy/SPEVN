@@ -2,8 +2,7 @@
 define l = Character("Eliwood", color="#ff632b")
 
 
-label start:
-    play music "road taken.mp3"
+label intro_to_spe:
     scene homepage
     show mogallguyfieri at right
     show eliwoodbig at left

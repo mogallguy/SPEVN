@@ -1,5 +1,6 @@
-﻿define e = Character("Mogall_Guy")
-define l = Character("Eliwood", color="#ff632b")
+﻿define m = Character("Mogall_Guy")
+define e = Character("Eliwood", color="#ff632b")
+define mc = Character("Casual")
 
 
 label intro_to_spe:
@@ -7,11 +8,17 @@ label intro_to_spe:
     show mogallguyfieri at right
     show eliwoodbig at left
 
-    e "Welcome to the world of SPE."
-    e "There are lots of mogalls and furrets. It's a wonderful place."
-    l "Thanks for the welcome I will subscribe so we can beat naughty r/FEH"
-    e "I want you to do something else besides subscribe..."
-    l "Eh?! Kyaa!~~"
+    e "You're finally awake."
+    m "You were trying to cross the border, right?"
+    mc "Border? What border? Where am I?"
+    m "The border between worlds, of course!"
+    e "It's great to meet you, Casual."
+    mc "My name is [mcname]!"
+    m "Welcome to the world of SPE."
+    m "There are lots of mogalls and furrets. It's a wonderful place."
+    e "Thanks for the welcome I will subscribe so we can beat naughty r/FEH"
+    m "I want you to do something else besides subscribe..."
+    e "Eh?! Kyaa!~~"
 
     ## Mogall messing around with showing protag over menus
     hide eliwoodbig
@@ -27,14 +34,14 @@ label intro_to_spe:
             jump badend1
 
 label kissmogall:
-    e "Mmm oh yeah baby pucker up"
+    m "Mmm oh yeah baby pucker up"
     jump ending
 
 label badend1:
-    e "Too bad so sad"
+    m "Too bad so sad"
     jump ending
 
 label ending:
     hide mogallguyfieri
-    l "Free will doesn't exist haha yeah"
+    e "Free will doesn't exist haha yeah"
     return

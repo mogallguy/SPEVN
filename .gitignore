@@ -3,3 +3,4 @@ log.txt
 *.save
 traceback.txt
 errors.txt
+log.txt

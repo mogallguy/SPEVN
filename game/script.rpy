@@ -1,12 +1,14 @@
 ﻿define m = Character("Mogall_Guy")
-define e = Character("Eliwood", color="#ff632b")
+## define e = Character("Eliwood", color="#ff632b")
+define e = Character("Lorenz", color="#ff632b")
 define mc = Character("Casual")
 
+define longfade = Fade(3.0, 0.0, 3.0)
 
 label intro_to_spe:
-    scene homepage
-    show mogallguyfieri at right
-    show eliwoodbig at left
+    scene homepage with longfade
+    show mogallguyfieri at right with moveinright
+    show lorenz_mogall at left with moveinleft
 
     e "You're finally awake."
     m "You were trying to cross the border, right?"
@@ -14,6 +16,12 @@ label intro_to_spe:
     m "The border between worlds, of course!"
     e "It's great to meet you, Casual."
     mc "My name is [mcname]!"
+    e "There are better places to take a nap than on the ground, Casual."
+    e "Give me your hand."
+
+    "I take the mogall's tentacle and rise to my feet."
+
+    mc "What is this place?"
     m "Welcome to the world of SPE."
     m "There are lots of mogalls and furrets. It's a wonderful place."
     e "Thanks for the welcome I will subscribe so we can beat naughty r/FEH"
